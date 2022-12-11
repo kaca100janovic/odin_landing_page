@@ -1,0 +1,127 @@
+:root{
+  --white: #e5e7eb;
+  --grey: #1f2937;
+  --blue: #3882F6;
+}
+body {
+  font-family: "Aboreto", cursive;
+  font-family: "Roboto Mono", monospace;
+  color: black;
+  padding: 0;
+  margin: 0;
+  /* text-align: center; */
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--grey);
+  color: var(--white);
+  font-size: 18px;
+}
+.logo{
+    padding-left: 200px;
+}
+.header_link {
+}
+.header_li {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 30px;
+  list-style-type: none;
+  padding-right: 100px;
+}
+footer {
+  display: block;
+  text-align: center;
+  background-color: var(--grey);
+  color: var(--white);
+  font-size: 14px;
+}
+.hero{
+   display: flex;
+   justify-content: space-between;
+   gap: 50px;
+   background-color: var(--grey);
+   color: var(--white);
+   font-size: 18px;
+
+}
+.img_hero{
+    width: 500px;
+    height: 250px;
+    padding-right: 100px;
+}
+.text{
+    display: block;
+    padding-left: 200px;
+
+}
+.singup{
+    background-color: var(--blue);
+    border: none;
+    color: var(--white);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+}
+#singup{
+  border: var(--white) solid 1px;
+}
+.main_title{
+  text-align: center
+}
+.main_first{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+.img_main{
+  width: 200px;
+  height: 200px;
+  border: var(--blue) solid 2px;
+  border-radius: 5px;
+}
+.main_second{
+  width: 200px;
+  text-align: justify;
+}
+.comment{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  background-color: var(--white);
+  padding: 100px 30% 100px 30%;
+  
+}
+.text{
+  text-align: justify;
+}
+.quote{
+  text-align: right;
+  font-weight: bold;
+}
+.singin{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px var(--blue) solid;
+  background-color: var(--blue);
+  color: var(--white);
+  border-radius: 5px;
+  margin: 100px 200px;
+
+}
+.singin_text{
+  margin: 50px;
+}
