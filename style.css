@@ -21,6 +21,7 @@ header {
 }
 .logo{
     padding-left: 200px;
+    height: 80px;
 }
 .header_link {
 }
@@ -31,6 +32,12 @@ header {
   gap: 30px;
   list-style-type: none;
   padding-right: 100px;
+}
+.item:hover{
+  background-color: var(--white);
+  color: var(--blue);
+  font-size: 110%;
+
 }
 footer {
   display: block;
@@ -104,7 +111,7 @@ footer {
   padding: 100px 30% 100px 30%;
   
 }
-.text{
+.text_comment{
   text-align: justify;
 }
 .quote{
